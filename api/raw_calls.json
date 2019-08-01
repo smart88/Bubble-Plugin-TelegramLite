@@ -1,0 +1,30 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAF": {
+            "body_type": "form_data",
+            "data_type": "empty",
+            "method": "post",
+            "name": "Send Broadcast",
+            "params": {
+                "AAH": {
+                    "key": "message",
+                    "private": true,
+                    "value": "Sending Message from Bubble.is"
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "url": "https://telegrambotbuilder.com/webhook/message/[Token]",
+            "url_params": {
+                "AAM": {
+                    "key": "Token",
+                    "private": true,
+                    "value": "825082471:AAHZkdKnDuHqeOHHkVvOIs_VT60-JSX1rHY",
+                    "visibility": "hidden"
+                }
+            }
+        }
+    },
+    "human": "Telegram Lite"
+}
