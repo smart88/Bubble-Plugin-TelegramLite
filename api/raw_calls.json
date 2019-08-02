@@ -18,10 +18,11 @@
             "url": "https://telegrambotbuilder.com/webhook/message/[Token]",
             "url_params": {
                 "AAM": {
+                    "doc": "Token create from BotFather",
                     "key": "Token",
                     "private": true,
-                    "value": "825082471:AAHZkdKnDuHqeOHHkVvOIs_VT60-JSX1rHY",
-                    "visibility": "hidden"
+                    "value": "",
+                    "visibility": "public"
                 }
             }
         }
